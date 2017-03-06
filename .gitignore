@@ -1,0 +1,8 @@
+bin/
+.classpath 
+.project
+.settings/
+src/undirectedGraphUtils/
+src/reminders/
+src/binaryStuff/
+resources/

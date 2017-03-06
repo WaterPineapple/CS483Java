@@ -1,0 +1,28 @@
+#+TITLE: Project structure 
+-------
+
+#+BEGIN_SRC
+This project doesn't use a build tool like Maven/Gradle for dependencies and libraries
+which would actually be beneficial because most these utility methods and stuff already
+exists, but that would defeat the purpose of this self-project.
+
+This means that to run code also, you would need to compile them yourself and then run 
+them because there is no ./gradlew run etc...
+
+Project structure might not be the regular src/test and src/main and just be jumbled 
+together for faster code writing
+
+I did the comparison sorts using Reference types that extend Comparable, since we 
+are doing a comparison sort. Please do keep in mind that creating a bunch of 
+Objects is not a good practice when you can just create primitives due to Memory.
+
+However I left as it is, because it is to distinguish b/w comparison sort/vs not.
+
+Even though I hate comments, there are some pre/post conditions I put for general
+API I will write like Priority Queues and etc... but not for algorithm testing code
+like QuickSort1 and etc...
+
+All of this is for good fun and self practice and revisiting stuff.
+#+END_SRC
+-------
+
